@@ -7,10 +7,6 @@ public class WordStats2 {
         int max[] = new int[26];
         int min[] = new int[26];
 
-        for (int i = 0; i < min.length; i++) {
-            min[i] = 999;
-        }
-
         for (int i = 0; i < N; i++) {
             String word = scan.next();
             char first = word.charAt(0);
